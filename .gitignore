@@ -1,13 +1,17 @@
 node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+temp
 
-# dependencies, yarn, etc
-# yarn / eslint
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+#Hardhat files
+cache
+artifacts
+
+deployments
+
 .eslintcache
 .vscode/**
 .DS_Store
